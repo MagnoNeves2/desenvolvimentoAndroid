@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Aula01" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Styles são conjuntos de atributos para que não tenhamos que repetir código desnecessáriamente
+        Ex.: Botões costumam ter o mesmo estilo no decorrer de um app, títulos, links, etc. -->
+    <style name="BotaoPrimario">
+        <item name="android:background">@color/primaryColorAfrodev</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:color">@color/primaryColorTextAfrodev</item>
+    </style>
+</resources>
